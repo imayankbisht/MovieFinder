@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border: 1px solid grey;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-primary:focus,
+.btn:focus {
+  box-shadow: none;
+}
+
+.panel {
+  cursor: pointer;
+  top: 45px;
+  right: 0;
+  left: 0;
+  background: #bdc3c7;
+  z-index: 1;
+}
+
+.panel ul {
+  margin-bottom: 0;
+  border-bottom: 2px solid white;
+}
+
+.panel ul li {
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 3px;
+}
